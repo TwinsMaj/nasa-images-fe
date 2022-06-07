@@ -17,3 +17,10 @@ A simple app for retrieving images from NASA image api
 - ensure you have `npm` installed
 - run `npm install`
 - run `npm start` or to start the application`
+
+### Toughts and conclusions
+
+- really liked how I separated concerns using context and hooks
+- really good to see that props drilling was avoided
+- I really enjoyed writing thee search and pagination functionality
+- I'm pretty proud of how I used Typescript consitently
