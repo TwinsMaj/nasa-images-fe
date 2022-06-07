@@ -4,6 +4,7 @@ import { Search } from './components/Search';
 import { ApolloProvider } from '@apollo/client';
 import { ApplicationProvider } from './context/application';
 import { getApolloClient } from './bootstrap/getApolloClient';
+import { NavigationBtn } from './components/NavigationBtn';
 
 function App(): JSX.Element {
   return (
@@ -11,6 +12,7 @@ function App(): JSX.Element {
       <ApolloProvider client={getApolloClient()}>
         <div className="App">
           <Search />
+          <NavigationBtn />
         </div>
       </ApolloProvider>
     </ApplicationProvider>
